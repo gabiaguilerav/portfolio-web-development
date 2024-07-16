@@ -145,6 +145,10 @@ footer a:hover {
 }
 
 @media (max-width: 1000px) {
+  .navbar {
+    max-width: 100%;
+  }
+
   .hero {
     margin: 150px auto 80px;
   }
@@ -192,6 +196,10 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
+  .navbar {
+    max-width: 100%;
+  }
+
   h2 {
     font-size: 34px;
   }
@@ -219,8 +227,20 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
+  .navbar {
+    max-width: 100%;
+  }
+
   #portrait-img {
     margin-top: 25px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 12px;
+  }
+
+  .about p {
+    font-size: 10px;
   }
 
   .div-project {
@@ -229,5 +249,11 @@ footer a:hover {
 
   .playlist-container {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
   }
 }
