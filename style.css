@@ -126,7 +126,8 @@ h5 {
 footer {
   color: rgb(33, 37, 41);
   margin: 40px auto;
-  text-emphasis: center;
+  text-align: center;
+  line-height: 2;
 }
 
 footer a {
@@ -141,4 +142,92 @@ footer a {
 footer a:hover {
   color: black;
   background: var(--green);
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    margin: 150px auto 80px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h1 {
+    font-size: 55px;
+    margin-bottom: 28px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 27px;
+  }
+
+  .work-section {
+    padding: 80px 0;
+  }
+
+  .second-row {
+    margin-top: 25px;
+  }
+
+  .about {
+    padding: 80px 0;
+  }
+
+  .contact {
+    padding: 80px 0;
+  }
+
+  #playlist {
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 34px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 22px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  .second-row {
+    margin-top: 0;
+  }
+
+  .div-project {
+    margin-top: 10px;
+  }
+
+  .about p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  #portrait-img {
+    margin-top: 25px;
+  }
+
+  .div-project {
+    margin-top: 25px;
+  }
+
+  .playlist-container {
+    margin-top: 50px;
+  }
 }
