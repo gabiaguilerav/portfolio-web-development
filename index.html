@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
     <!--Favicon-->
     <link
       rel="apple-touch-icon"
@@ -37,7 +36,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/index.css" />
+
+    <link rel="stylesheet" href="/style.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -52,195 +53,211 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container-fluid col-10">
-        <a class="navbar-brand" href="/">[gabiaguilerav/]</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">My work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact me</a>
-            </li>
-          </ul>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid col-10">
+          <a class="navbar-brand" href="/">[gabiaguilerav/]</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">My work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row hero justify-content-center align-items-center">
+          <div class="col-6 text-center">
+            <h2>Gabriela Aguilera</h2>
+            <h1>Front-end developer</h1>
+            <h3>
+              From Mexico
+              <span class="material-symbols-outlined"> trending_flat </span>
+              based in Limburg, Netherlands
+            </h3>
+          </div>
+
+          <div class="col-3">
+            <img
+              src="/images/portrait.jpg"
+              alt="portrait"
+              class="img-fluid"
+              id="portrait-img"
+            />
+          </div>
         </div>
       </div>
-    </nav>
 
-    <div class="container">
-      <div class="row hero">
-        <div class="col">
-          <h2>Gabriela Aguilera</h2>
-          <h1>Front-end developer</h1>
-          <h3>
-            From Mexico
-            <span class="material-symbols-outlined"> trending_flat </span> based
-            in Limburg, Netherlands
-          </h3>
-        </div>
-
-        <div class="col">
-          <img
-            src="/images/portrait.jpg"
-            alt="portrait"
-            class="img-fluid"
-            id="portrait-img"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="work-section" id="work">
-      <h4>My work</h4>
-      <div class="row">
-        <div>
-          <img src="/images/1.jpg" alt="world clock app" class="img-fluid" />
-          <button>World clock app</button>
-          <p>
-            This app is a world clock that gives the exact real time from
-            different time zones. The main component from it is javascript (js
-            moment)
-          </p>
+      <div class="work-section" id="work">
+        <h4>My work</h4>
+        <div class="row">
           <div>
-            <img
-              src="/images/2.png"
-              alt="AI vegan recipes generator"
-              class="img-fluid"
-            />
-            <button>AI Recipes generator</button>
-            <p>
-              This app helps you to create easy and tasty vegan recipes with the
-              ingredients that you have available at home. The app is powered by
-              AI.
-            </p>
-          </div>
-          <div>
-            <img src="/images/3.png" alt="forecast app" class="img-fluid" />
-            <button>Forecast app</button>
-            <p>
-              This is a weather forecast app that shows real information about a
-              lot of different cities in the world. The app works thanks to its
-              javascript development.
-            </p>
-          </div>
-          <div>
-            <img
-              src="/images/4.png"
-              alt="lisbon informative app"
-              class="img-fluid"
-            />
+            <img src="/images/1.jpg" alt="world clock app" class="img-fluid" />
             <button>World clock app</button>
             <p>
-              This responsive website informs us about the nice city of Lisbon,
-              is made only for touristic purposes. It contains embeded instagram
-              images and is made out of responsive JQueries.
+              This app is a world clock that gives the exact real time from
+              different time zones. The main component from it is javascript (js
+              moment)
             </p>
+            <div>
+              <img
+                src="/images/2.png"
+                alt="AI vegan recipes generator"
+                class="img-fluid"
+              />
+              <button>AI Recipes generator</button>
+              <p>
+                This app helps you to create easy and tasty vegan recipes with
+                the ingredients that you have available at home. The app is
+                powered by AI.
+              </p>
+            </div>
+            <div>
+              <img src="/images/3.png" alt="forecast app" class="img-fluid" />
+              <button>Forecast app</button>
+              <p>
+                This is a weather forecast app that shows real information about
+                a lot of different cities in the world. The app works thanks to
+                its javascript development.
+              </p>
+            </div>
+            <div>
+              <img
+                src="/images/4.png"
+                alt="lisbon informative app"
+                class="img-fluid"
+              />
+              <button>World clock app</button>
+              <p>
+                This responsive website informs us about the nice city of
+                Lisbon, is made only for touristic purposes. It contains embeded
+                instagram images and is made out of responsive JQueries.
+              </p>
+            </div>
+            <div>
+              <img src="/images/5.png" alt="dictionary app" class="img-fluid" />
+              <button>React.js Dictionary</button>
+              <p>
+                This React.js app helps us finding the meaning of a word, the
+                phonetics, synonyms examples and even images.
+              </p>
+            </div>
           </div>
-          <div>
-            <img src="/images/5.png" alt="dictionary app" class="img-fluid" />
-            <button>React.js Dictionary</button>
-            <p>
-              This React.js app helps us finding the meaning of a word, the
-              phonetics, synonyms examples and even images.
-            </p>
+        </div>
+      </div>
+
+      <div class="about justify-content-center" id="about">
+        <h4>About me</h4>
+        <div class="row justify-content-center mt-4 gx-5">
+          <div class="col-4">
+            Born and raised in Mexico City, I’ve have always been an enthusiast
+            of graphics and bring my ideas to life. I studied design and visual
+            communication at the FAD, which is small school part of the UNAM
+            located in the south part of Mexico city. I moved to Germany after
+            graduating from University and started a trip to find myself and
+            figure out what I would like to do for a living. In the city of Köln
+            I got to connect with another creative people, such as artists,
+            musicians and web designers.
+          </div>
+          <div class="col-4">
+            This people gave me indeed a lot of perspective about the market job
+            and inspired me to get into web development. The journey of learning
+            coding hasn’t been easy but it’s been very gratifying. I’m currently
+            living in the Netherlands, near the nice city of Maastricht. My
+            hobbies are mostly related to artistic/cultural activities, but I
+            also love doing yoga, rollerskating and of course going out to drink
+            a good cup of matcha.
           </div>
         </div>
       </div>
+
+      <div class="row justify-content-center contact">
+        <div class="col-4" id="contact">
+          <h4>Contact me</h4>
+          <div
+            class="row justify-content-center align-items-center text-center icons-contact"
+          >
+            <div class="col-2">
+              <a href="https://www.instagram.com/gabiaguilerav/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <div class="col-2">
+              <a href="https://github.com/gabiaguilerav" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <div class="col-2">
+              <a
+                href="https://www.linkedin.com/in/gabriela-aguilera-hg/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="row justify-content-center text-center">
+            <div class="col">📬 Email me at: gabiaguilerava@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <div class="row justify-content-center playlist-container">
+            <h5>My coding playlist</h5>
+            <iframe
+              allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+              frameborder="0"
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+              src="https://embed.music.apple.com/mx/playlist/coding/pl.u-V9D7mX7SPge8oG?l=en-GB"
+              id="playlist"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row justify-content-center text-center">
+          <div class="col-5">
+            <div class="mb-2">© Gabriela Aguilera 2024</div>
+
+            This project is open-sourced on
+            <a
+              href="https://github.com/gabiaguilerav/portfolio-web-development.git"
+              target="_blank"
+              >Github</a
+            >
+            and hosted on
+            <a href="https://gabiaguilerav.netlify.app/" target="_blank"
+              >Netlify</a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <div id="about">
-      <h4>About me</h4>
-      <div class="row">
-        <div class="col">
-          Born and raised in Mexico City, I’ve have always been an enthusiast of
-          graphics and bring my ideas to life. I studied design and visual
-          communication at the FAD, which is small school part of the UNAM
-          located in the south part of Mexico city. I moved to Germany after
-          graduating from University and started a trip to find myself and
-          figure out what I would like to do for a living. In the city of Köln I
-          got to connect with another creative people, such as artists,
-          musicians and web designers.
-        </div>
-        <div class="col">
-          This people gave me indeed a lot of perspective about the market job
-          and inspired me to get into web development. The journey of learning
-          coding hasn’t been easy but it’s been very gratifying. I’m currently
-          living in the Netherlands, near the nice city of Maastricht. My
-          hobbies are mostly related to artistic/cultural activities, but I also
-          love doing yoga, rollerskating and of course going out to drink a good
-          cup of matcha.
-        </div>
-      </div>
-    </div>
-
-    <div id="contact">
-      <h4>Contact me</h4>
-      <div class="row">
-        <div class="col">
-          <a href="https://www.instagram.com/gabiaguilerav/" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/gabiaguilerav" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-        <div class="col">
-          <a
-            href="https://www.linkedin.com/in/gabriela-aguilera-hg/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">📬 Email me at: gabiaguilerava@gmail.com</div>
-      </div>
-
-      <div class="row">
-        <iframe
-          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-          frameborder="0"
-          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-          src="https://embed.music.apple.com/mx/playlist/coding/pl.u-V9D7mX7SPge8oG?l=en-GB"
-        ></iframe>
-      </div>
-    </div>
-
-    <footer>
-      © Gabriela Aguilera 2024
-      <br />
-      This project is open-sourced on
-      <a
-        href="https://github.com/gabiaguilerav/portfolio-web-development.git"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://gabiaguilerav.netlify.app/" target="_blank">Netlify</a>
-    </footer>
   </body>
 </html>

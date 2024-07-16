@@ -1,3 +1,111 @@
+:root {
+  --pink: #e3dcdb;
+  --green: #cad0ce;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navbar {
+  background: var(--pink);
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-family: "Courier New", Courier;
+  font-size: 25px;
+}
+
+.hero {
+  margin: 200px auto 100px;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  margin: 0;
+}
+
 h1 {
-  color: crimson;
+  font-size: 65px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#portrait-img {
+  border-radius: 15px;
+}
+
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about {
+  margin: 100px auto;
+}
+
+.contact {
+  padding: 100px 0;
+  background: var(--pink);
+}
+
+.icons-contact {
+  margin: 40px auto 30px;
+}
+
+.fa-brands {
+  font-size: 45px;
+}
+
+.icons-contact a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+  transition: all 200ms ease-in-out;
+}
+
+.icons-contact a:hover {
+  color: white;
+}
+
+h5 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#playlist {
+  max-width: 90%;
+  height: 460px;
+  border-radius: 15px;
+  margin: 8px 0 0 0;
+  line-height: 0;
+}
+
+footer {
+  color: rgb(33, 37, 41);
+  margin: 40px auto;
+  text-emphasis: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+  transition: all 200ms ease-in-out;
+  padding: 3px 4px;
+  border: solid 1px var(--pink);
+  border-radius: 5px;
+}
+
+footer a:hover {
+  color: black;
+  background: var(--green);
 }
