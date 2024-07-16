@@ -1,16 +1,17 @@
 :root {
   --pink: #e3dcdb;
   --green: #cad0ce;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0 auto;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .navbar {
   background: var(--pink);
-  overflow-x: hidden;
 }
 
 .navbar-brand {
