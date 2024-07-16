@@ -5,6 +5,7 @@
 
 body {
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -48,8 +49,40 @@ h4 {
   text-align: center;
 }
 
+.work-section {
+  padding: 100px 0;
+  background: var(--pink);
+}
+
+.work-section img {
+  border-radius: 15px;
+}
+
+.work-section p {
+  font-size: 12px;
+}
+
+.work-section button {
+  margin: 9px auto;
+  transition: all 200ms ease-in-out;
+  padding: 5px 8px;
+  background: white;
+  border: solid 1px white;
+  border-radius: 6px;
+}
+
+.work-section button:hover {
+  color: black;
+  background: var(--green);
+}
+
+.work-section a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+
 .about {
-  margin: 100px auto;
+  padding: 100px 0;
 }
 
 .contact {
