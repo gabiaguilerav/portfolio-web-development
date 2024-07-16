@@ -5,12 +5,12 @@
 
 body {
   margin: 0 auto;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .navbar {
   background: var(--pink);
-  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .navbar-brand {
@@ -196,10 +196,6 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-  .navbar {
-    max-width: 100%;
-  }
-
   h2 {
     font-size: 34px;
   }
@@ -227,10 +223,6 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-  .navbar {
-    max-width: 100%;
-  }
-
   #portrait-img {
     margin-top: 25px;
   }
